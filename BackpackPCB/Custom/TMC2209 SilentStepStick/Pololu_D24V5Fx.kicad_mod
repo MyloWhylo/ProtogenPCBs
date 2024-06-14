@@ -1,0 +1,231 @@
+(footprint "Pololu_D24V5Fx"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.27 -12.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9bde12ee-3ad7-450e-9479-d99ee601d75c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Pololu_D24V5Fx"
+		(at 3.81 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ed7eee13-3736-4a3c-b7b7-e5af14fcb9e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 3.81 -7.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cff057e8-21b3-4257-9ad0-50203429d990")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 3.81 -7.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f00b5781-9272-435c-a606-82e048d96a20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 3.81 -7.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a743342-34b4-4876-a4b6-e487a9f30a30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.27 -1.27)
+		(end 8.89 -1.27)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8fce2d96-69a6-48bc-903f-556e1d8bd71a")
+	)
+	(fp_line
+		(start 1.27 1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "664c4bc2-e364-44c9-8e21-e717a3c82cbc")
+	)
+	(fp_rect
+		(start -1.27 -11.43)
+		(end 8.89 1.27)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6d93e93f-1165-47ac-b3f6-bc27aa8c42a3")
+	)
+	(fp_rect
+		(start -1.524 -11.684)
+		(end 9.144 1.524)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "043678e0-d5cd-4e53-bff6-d6b87eed0f82")
+	)
+	(fp_text user "~{SHDN}"
+		(at 0 -1.524 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5c4a8b5b-6b88-40a1-a29e-0955bcfc7e88")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "GND"
+		(at 5.08 -1.524 90)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "5ef279a0-f325-4fe4-827f-cf560fc89de3")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "VOUT"
+		(at 7.62 -1.524 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7dc3f4f3-6834-4e80-9683-f71940c3b254")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "VIN"
+		(at 2.54 -1.524 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e525cc32-b201-49f1-bddc-d138c0bb738d")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 -4.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6658ea60-6fc8-48df-9b93-7dd61f18392a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a8f65c0-8662-4961-a954-145c24b0af75")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "904c14bf-e849-42fc-b3af-391bb03e1246")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "03e8c40b-4a59-4f58-b91f-aa1387db434c")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0359a052-7a8c-456f-92d5-8b26140d1ed5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/Custom/d24v5fx-step-down-voltage-regulator.step"
+		(offset
+			(xyz -1.27 -1.27 2.54)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
